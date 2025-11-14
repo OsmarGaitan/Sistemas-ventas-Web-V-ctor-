@@ -124,3 +124,5 @@ GO
 ALTER TABLE PROVINCIA
 ALTER COLUMN IdProvincia CHAR(4);
 GO 
+
+select IdUsuario,Nombre, Apellido, Correo,Clave,Reestablecer,Actvo,FechaRegistro from USUARIO
