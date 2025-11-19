@@ -4,3 +4,9 @@ C:\Users\Acer Aspire 5 10th\OneDrive\Documentos\Proyecto de Diseño de internet\
 C:\Users\Acer Aspire 5 10th\OneDrive\Documentos\Proyecto de Diseño de internet\Sistema de ventas Wed Victor\CapaEntidad\bin\Debug\CapaEntidad.pdb
 C:\Users\Acer Aspire 5 10th\OneDrive\Documentos\Proyecto de Diseño de internet\Sistema de ventas Wed Victor\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\Users\Acer Aspire 5 10th\OneDrive\Documentos\Proyecto de Diseño de internet\Sistema de ventas Wed Victor\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\USUARIO\Documents\DiseñoWEBPRO\Sistemas-ventas-Web-V-ctor-\Sistema de ventas Wed Victor\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\USUARIO\Documents\DiseñoWEBPRO\Sistemas-ventas-Web-V-ctor-\Sistema de ventas Wed Victor\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\USUARIO\Documents\DiseñoWEBPRO\Sistemas-ventas-Web-V-ctor-\Sistema de ventas Wed Victor\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\DiseñoWEBPRO\Sistemas-ventas-Web-V-ctor-\Sistema de ventas Wed Victor\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\DiseñoWEBPRO\Sistemas-ventas-Web-V-ctor-\Sistema de ventas Wed Victor\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\USUARIO\Documents\DiseñoWEBPRO\Sistemas-ventas-Web-V-ctor-\Sistema de ventas Wed Victor\CapaEntidad\obj\Debug\CapaEntidad.pdb

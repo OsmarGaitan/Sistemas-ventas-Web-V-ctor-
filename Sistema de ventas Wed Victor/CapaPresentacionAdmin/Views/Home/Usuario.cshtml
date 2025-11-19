@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Usuario";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -18,10 +17,7 @@
     <div class="card-body">
         <div class=" row">
             <div class=" col-12">
-                <button type="button"
-                        class="btn btn-outline-dark">
-                    Crear nuevo usuario
-                </button>
+                <button type="button" class="btn btn-success" onclick="abrirModal(null)">Crear nuevo usuario</button>
             </div>
         </div>
 
@@ -34,6 +30,9 @@
                     <th>Apellidos</th>
                     <th>Correo</th>
                     <th>Activo</th>
+                    <th></th>
+
+
                 </tr>
             </thead>
 
@@ -45,22 +44,148 @@
 </div>
 
 
+<!-- Modal -->
+<div class="modal fade" id="FormModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-dark text-white">
+                <h5 class="modal-title" id="exampleModalLabel">Usuario</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class=row>
+
+                    <div class="col-sm-6">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="txtnombre" >
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label for="exampleFormControlInput1" class="form-label">Apellidos</label>
+                        <input type="text" class="form-control" id="txtapellido" >
+                    </div>
+
+
+                    <div class="col-sm-6">
+                        <label for="exampleFormControlInput1" class="form-label">Correo</label>
+                        <input type="email" class="form-control" id="txtcorreo">
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label for="cboactvo" class="form-label">Actvo</label>
+                        <select id="cboactvo" class="form-select" >
+                            <option value="1">Si</option>
+                            <option value="0">No</option>
+                          
+                        </select>
+                    </div>
+
+                   
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 @section scripts {
     <script>
 
-      jQuery.ajax({
-        url: '@Url.Action("listarUsuarios", "Home")',
-        type: "GET",
-        dataType: "json",
-        contentType: "application/json; charset=utf-8",
-        success: function (data)
-        {
-        debugger;
-        var texto1 = "hola soy texto1";
-        console.log(data);
-          }
+        var tabladata;
 
-      });
+     
+
+        tabladata = $("#tabla").DataTable({
+            responsive: true,
+            ordering: false,
+            "ajax": {
+                url: '@Url.Action("listarUsuarios", "Home")',
+                type: "GET",
+                dataType: "json"
+
+            },
+            "columns": [
+
+                { "data": "Nombre" },
+                { "data": "Apellido" },
+                { "data": "Correo" },
+                {
+                    "data": "Actvo", "render": function (valor) {
+                        if (valor) {
+
+                            return '<span class="badge bg-success">Si</span '
+                        } else {
+                            return '<span class="badge bg-danger">No</span>'
+                        }
+                    }
+
+                },
+                {
+                    "defaultContent": '<button type="button" class= "btn btn-primary btn-sm btn-editar" ><i class="fas fa-pen "></i></button> ' +
+                        '<button type="button" class= "btn btn-danger btn-sm ms-2" ><i class="fas fa-trash "></i></button> ',
+
+                    "orderable": false,
+                    "searchable": false,
+                    "width" : "90px"
+                }
+
+
+
+
+            ],
+            "language": {
+                "url": "//cdn.datatables.net/plug-ins/2.3.5/i18n/es-ES.json"
+            }
+
+
+
+
+
+        });
+
+
+        function abrirModal(json) {
+
+
+            if (json != null) {
+
+                $("#txtnombre").val(json.Nombre);
+                $("#txtapellido").val(json.Apellido);
+                $("#txtcorreo").val(json.Correo);
+                $("#cboactvo").val(json.Actvo == true ? 1 : 0);
+
+
+
+            }
+
+
+            $("#FormModal").modal("show");
+
+
+        }
+
+        $("#tabla tbody").on("click", '.btn-editar', function () {
+
+            var filaSeleccionada = $(this).closest("tr");
+
+            var data = tabladata.row(filaSeleccionada).data();
+
+            console.log(data)
+
+            abrirModal(data)
+
+
+            
+
+        })
+
+
+
     </script>
 
 }

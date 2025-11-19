@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Acer Aspire 5 10th\\OneDrive\\Documentos\\Proyecto de Dise\u00F1o de internet\\Sistema de ventas Wed Victor\\",
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|c:\\users\\acer aspire 5 10th\\onedrive\\documentos\\proyecto de dise\u00F1o de internet\\sistema de ventas wed victor\\capapresentacionadmin\\views\\home\\usuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|c:\\users\\usuario\\documents\\dise\u00F1owebpro\\sistemas-ventas-web-v-ctor-\\sistema de ventas wed victor\\capapresentacionadmin\\views\\home\\usuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\views\\home\\usuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|C:\\Users\\Acer Aspire 5 10th\\OneDrive\\Documentos\\Proyecto de Dise\u00F1o de internet\\Sistema de ventas Wed Victor\\capapresentacionadmin\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\capapresentacionadmin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\capapresentacionadmin\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\capapresentacionadmin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\capapresentacionadmin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +30,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Usuario.cshtml",
-              "DocumentMoniker": "C:\\Users\\Acer Aspire 5 10th\\OneDrive\\Documentos\\Proyecto de Dise\u00F1o de internet\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\Views\\Home\\Usuario.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\Views\\Home\\Usuario.cshtml",
               "RelativeDocumentMoniker": "CapaPresentacionAdmin\\Views\\Home\\Usuario.cshtml",
-              "ToolTip": "C:\\Users\\Acer Aspire 5 10th\\OneDrive\\Documentos\\Proyecto de Dise\u00F1o de internet\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\Views\\Home\\Usuario.cshtml",
-              "RelativeToolTip": "CapaPresentacionAdmin\\Views\\Home\\Usuario.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\Views\\Home\\Usuario.cshtml*",
+              "RelativeToolTip": "CapaPresentacionAdmin\\Views\\Home\\Usuario.cshtml*",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-12T18:45:39.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BundleConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Acer Aspire 5 10th\\OneDrive\\Documentos\\Proyecto de Dise\u00F1o de internet\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\App_Start\\BundleConfig.cs",
-              "RelativeDocumentMoniker": "CapaPresentacionAdmin\\App_Start\\BundleConfig.cs",
-              "ToolTip": "C:\\Users\\Acer Aspire 5 10th\\OneDrive\\Documentos\\Proyecto de Dise\u00F1o de internet\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\App_Start\\BundleConfig.cs",
-              "RelativeToolTip": "CapaPresentacionAdmin\\App_Start\\BundleConfig.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBEAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T22:27:02.095Z",
+              "DocumentIndex": 4,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\Web.config",
+              "RelativeDocumentMoniker": "CapaPresentacionAdmin\\Web.config",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\Web.config",
+              "RelativeToolTip": "CapaPresentacionAdmin\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-18T05:33:41.023Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CapaPresentacionAdmin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CapaPresentacionAdmin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwDUAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T19:26:26.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CapaPresentacionAdmin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CapaPresentacionAdmin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T19:40:53.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "CapaPresentacionAdmin\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "CapaPresentacionAdmin\\App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T22:27:02.095Z"
             }
           ]
         }
