@@ -52,7 +52,10 @@
                 <h5 class="modal-title" id="exampleModalLabel">Usuario</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body g-2">
+
+                <input id="txtid" type="text" value="0" />
+
                 <div class=row>
 
                     <div class="col-sm-6">
@@ -85,8 +88,8 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary"onclick="Guardar()">Guardar</button>
             </div>
         </div>
     </div>
@@ -97,7 +100,7 @@
     <script>
 
         var tabladata;
-
+        var filaSeleccionada;
      
 
         tabladata = $("#tabla").DataTable({
@@ -139,7 +142,7 @@
 
             ],
             "language": {
-                "url": "//cdn.datatables.net/plug-ins/2.3.5/i18n/es-ES.json"
+                "url": "https://cdn.datatables.net/plug-ins/1.11.3/i18n/es.json"
             }
 
 
@@ -151,9 +154,19 @@
 
         function abrirModal(json) {
 
+            $("#txtid").val(0);
+            $("#txtnombre").val("");
+            $("#txtapellido").val("");
+            $("#txtcorreo").val("");
+            $("#cboactvo").val(1);
+
+
+
 
             if (json != null) {
 
+
+                $("#txtid").val(json.IdUsuario);
                 $("#txtnombre").val(json.Nombre);
                 $("#txtapellido").val(json.Apellido);
                 $("#txtcorreo").val(json.Correo);
@@ -171,7 +184,7 @@
 
         $("#tabla tbody").on("click", '.btn-editar', function () {
 
-            var filaSeleccionada = $(this).closest("tr");
+            filaSeleccionada = $(this).closest("tr");
 
             var data = tabladata.row(filaSeleccionada).data();
 
@@ -184,6 +197,36 @@
 
         })
 
+
+        function Guardar() {
+
+            var Usuario = {
+                IdUsuario: $("#txtid").val(),
+                Actvo: $("#cboactvo").val() == 1 ? true : false,
+                Apellido: $("#txtapellido").val(),
+                Correo: $("#txtcorreo").val(),
+                Nombre: $("#txtnombre").val(),
+         
+            }
+
+            if (Usuario.IdUsuario == 0) {
+
+                tabladata.row.add(Usuario).draw(false);
+
+
+            } else {
+
+                tabladata.row(filaSeleccionada).data(Usuario).draw(false);
+
+                
+
+
+            }
+
+            $("#FormModal").modal("hide");
+
+
+        }
 
 
     </script>
