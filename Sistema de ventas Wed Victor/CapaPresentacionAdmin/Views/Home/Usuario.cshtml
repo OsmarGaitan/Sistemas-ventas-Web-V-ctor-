@@ -52,41 +52,52 @@
                 <h5 class="modal-title" id="exampleModalLabel">Usuario</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body g-2">
+            <div class="modal-body ">
 
                 <input id="txtid" type="text" value="0" />
 
-                <div class=row>
+                <div class = "row g-2">
 
                     <div class="col-sm-6">
                         <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="txtnombre" >
+                        <input type="text" class="form-control" id="txtnombre" autocomplete="off">
                     </div>
 
                     <div class="col-sm-6">
                         <label for="exampleFormControlInput1" class="form-label">Apellidos</label>
-                        <input type="text" class="form-control" id="txtapellido" >
+                        <input type="text" class="form-control" id="txtapellido" autocomplete="off">
                     </div>
 
 
                     <div class="col-sm-6">
                         <label for="exampleFormControlInput1" class="form-label">Correo</label>
-                        <input type="email" class="form-control" id="txtcorreo">
+                        <input type="email" class="form-control" id="txtcorreo" autocomplete="off">
                     </div>
 
                     <div class="col-sm-6">
                         <label for="cboactvo" class="form-label">Actvo</label>
-                        <select id="cboactvo" class="form-select" >
+                        <select id="cboactvo" class="form-select">
                             <option value="1">Si</option>
                             <option value="0">No</option>
-                          
+
                         </select>
                     </div>
 
-                   
+                    <div class="row mt-2">
+                        <div class="col-12">
+
+                            <div id="mensajeError"class="alert alert-danger" role="alert">
+                                A simple danger alert—check it out!
+                            </div>
+
+                        </div> 
+                    </div>
+                         
+                    
+
 
                 </div>
-            </div>
+                </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                 <button type="button" class="btn btn-primary"onclick="Guardar()">Guardar</button>
@@ -159,6 +170,8 @@
             $("#txtapellido").val("");
             $("#txtcorreo").val("");
             $("#cboactvo").val(1);
+            $("#mensajeError").hide();
+            
 
 
 
@@ -209,21 +222,66 @@
          
             }
 
-            if (Usuario.IdUsuario == 0) {
+            jQuery.ajax({
+                url: '@Url.Action("GuardarUsuario", "Home")',
+                type: "POST",
+                data: JSON.stringify({ objeto : Usuario}),
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
 
-                tabladata.row.add(Usuario).draw(false);
+                    debugger;
+
+                    //Usuario nuevo 
+
+                    if (Usuario.IdUsuario == 0) {
+
+                        if (data.resultado != 0) {
+
+                            Usuario.IdUsuario = data.resultado;
+                            tabladata.row.add(Usuario).draw(false);
+                            $("#FormModal").modal("hide");
+
+                        } else {
+                            $("#mensajeError").txt(data.mensaje);
+                            $("#mensajeError").show();
+                        }
 
 
-            } else {
+                        
 
-                tabladata.row(filaSeleccionada).data(Usuario).draw(false);
+                      //Usuario Editar
+                    } else {
 
-                
+                        if (data.resultado) {
+
+                            tabladata.row(filaSeleccionada).data(Usuario).draw(false);
+                            filaSeleccionada = null;
+                            $("#FormModal").modal("hide");
 
 
-            }
+                        } else {
+                            $("#mensajeError").txt(data.mensaje);
+                            $("#mensajeError").show();
 
-            $("#FormModal").modal("hide");
+                        }
+
+                        
+
+                    }
+
+                },
+                error: function(error){
+                    console.log(error)
+                },
+                beforeSend: function(){
+
+                },
+            });
+
+            
+
+            
 
 
         }

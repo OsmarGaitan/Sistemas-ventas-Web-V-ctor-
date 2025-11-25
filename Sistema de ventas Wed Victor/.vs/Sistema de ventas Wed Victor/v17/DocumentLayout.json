@@ -7,16 +7,28 @@
       "RelativeMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\views\\home\\usuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E6012EE9-0500-4227-B09B-824D9E30655D}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\usuario\\documents\\dise\u00F1owebpro\\sistemas-ventas-web-v-ctor-\\sistema de ventas wed victor\\capanegocio\\cn_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6012EE9-0500-4227-B09B-824D9E30655D}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cn_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB867CAC-C232-4FC3-B759-65381BDE884D}|CapaDatos\\CapaDatos.csproj|c:\\users\\usuario\\documents\\dise\u00F1owebpro\\sistemas-ventas-web-v-ctor-\\sistema de ventas wed victor\\capadatos\\cd_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB867CAC-C232-4FC3-B759-65381BDE884D}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6012EE9-0500-4227-B09B-824D9E30655D}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\usuario\\documents\\dise\u00F1owebpro\\sistemas-ventas-web-v-ctor-\\sistema de ventas wed victor\\capanegocio\\cn_recursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6012EE9-0500-4227-B09B-824D9E30655D}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cn_recursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\capapresentacionadmin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\capapresentacionadmin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\capapresentacionadmin\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\capapresentacionadmin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|solutionrelative:capapresentacionadmin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BB5F78C-98CE-455B-A823-4FF1DB6D6983}|CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj|C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\capapresentacionadmin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -44,14 +56,40 @@
               "RelativeDocumentMoniker": "CapaPresentacionAdmin\\Views\\Home\\Usuario.cshtml",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\Views\\Home\\Usuario.cshtml",
               "RelativeToolTip": "CapaPresentacionAdmin\\Views\\Home\\Usuario.cshtml",
-              "ViewState": "AgIAANQAAAAAAAAAAAAAAOEAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAiwPwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-12T18:45:39.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "CN_Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaNegocio\\CN_Usuarios.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\CN_Usuarios.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaNegocio\\CN_Usuarios.cs",
+              "RelativeToolTip": "CapaNegocio\\CN_Usuarios.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA0wBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T17:39:59.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CD_Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaDatos\\CD_Usuarios.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CD_Usuarios.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaDatos\\CD_Usuarios.cs",
+              "RelativeToolTip": "CapaDatos\\CD_Usuarios.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAgwJIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T17:25:28.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\Web.config",
               "RelativeDocumentMoniker": "CapaPresentacionAdmin\\Web.config",
@@ -64,7 +102,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CapaPresentacionAdmin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CapaPresentacionAdmin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwDYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T19:40:53.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CN_Recursos.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaNegocio\\CN_Recursos.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\CN_Recursos.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaNegocio\\CN_Recursos.cs",
+              "RelativeToolTip": "CapaNegocio\\CN_Recursos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T17:54:05.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CapaPresentacionAdmin\\Views\\Shared\\_Layout.cshtml",
@@ -76,19 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "CapaPresentacionAdmin\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "CapaPresentacionAdmin\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T19:40:53.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "BundleConfig.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Dise\u00F1oWEBPRO\\Sistemas-ventas-Web-V-ctor-\\Sistema de ventas Wed Victor\\CapaPresentacionAdmin\\App_Start\\BundleConfig.cs",
               "RelativeDocumentMoniker": "CapaPresentacionAdmin\\App_Start\\BundleConfig.cs",
