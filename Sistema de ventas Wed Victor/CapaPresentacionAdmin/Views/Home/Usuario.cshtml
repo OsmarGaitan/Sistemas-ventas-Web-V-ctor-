@@ -112,7 +112,7 @@
 
         var tabladata;
         var filaSeleccionada;
-     
+
 
         tabladata = $("#tabla").DataTable({
             responsive: true,
@@ -141,7 +141,7 @@
                 },
                 {
                     "defaultContent": '<button type="button" class= "btn btn-primary btn-sm btn-editar" ><i class="fas fa-pen "></i></button> ' +
-                        '<button type="button" class= "btn btn-danger btn-sm ms-2" ><i class="fas fa-trash "></i></button> ',
+                        '<button type="button" class= "btn btn-danger btn-sm ms-2 btn-eliminar" ><i class="fas fa-trash "></i></button> ',
 
                     "orderable": false,
                     "searchable": false,
@@ -149,19 +149,12 @@
                 }
 
 
-
-
             ],
             "language": {
                 "url": "https://cdn.datatables.net/plug-ins/1.11.3/i18n/es.json"
             }
 
-
-
-
-
         });
-
 
         function abrirModal(json) {
 
@@ -171,10 +164,6 @@
             $("#txtcorreo").val("");
             $("#cboactvo").val(1);
             $("#mensajeError").hide();
-            
-
-
-
 
             if (json != null) {
 
@@ -201,12 +190,66 @@
 
             var data = tabladata.row(filaSeleccionada).data();
 
-            console.log(data)
-
             abrirModal(data)
 
 
-            
+
+
+        })
+
+
+        $("#tabla tbody").on("click", '.btn-eliminar', function () {
+
+
+            var usuarioselecionados = $(this).closest("tr");
+
+            var data = tabladata.row(usuarioselecionados).data();
+
+            swal({
+                title: "¿Quieres eliminar a este usuario?",
+                type: "warning",
+                showCancelButton: true,
+                confirmButtonClass: "btn btn-success",
+                confirmButtonText: "Sí!",
+                cancelButtonClass: "btn btn-danger",
+                cancelButtonText: "NO",
+                closeOnConfirm: false,
+                closeOnCancel: true
+            },
+                function (isConfirm) {
+                    if (isConfirm) {
+                        jQuery.ajax({
+                          url: '@Url.Action("EliminarUsuario", "Home")',
+                          type: "POST",
+                          data: JSON.stringify({ id: data.IdUsuario }),
+                          dataType: "json",
+                          contentType: "application/json; charset=utf-8",
+                            success: function (data) {
+
+                                //debugger;
+
+                                if (data.resultado) {
+                                    tabladata.row(usuarioselecionados).remove().draw();
+                                    swal("¡Eliminado!", "El usuario ha sido eliminado.", "success");
+
+                                } else {
+                                    swal("no se pudo eliminar", datamensaje, "error")
+
+                                }
+                          },
+                          error: function (error) {
+                                 console.log(error)
+                          },
+                          beforeSend: function () {
+                          }
+
+                        });
+
+                       // 
+                    }
+                });
+
+            console.log(data);
 
         })
 
@@ -219,7 +262,7 @@
                 Apellido: $("#txtapellido").val(),
                 Correo: $("#txtcorreo").val(),
                 Nombre: $("#txtnombre").val(),
-         
+
             }
 
             jQuery.ajax({
@@ -230,9 +273,8 @@
                 contentType: "application/json; charset=utf-8",
                 success: function (data) {
 
-                    debugger;
-
-                    //Usuario nuevo 
+                    //Usuario nuevo
+                    $(".modal-body").LoadingOverlay("hide");
 
                     if (Usuario.IdUsuario == 0) {
 
@@ -247,8 +289,6 @@
                             $("#mensajeError").show();
                         }
 
-
-                        
 
                       //Usuario Editar
                     } else {
@@ -266,22 +306,35 @@
 
                         }
 
-                        
-
                     }
 
                 },
-                error: function(error){
-                    console.log(error)
+                error: function (error) {
+
+                    $(".modal-body").LoadingOverlay("hide");
+
+                    $("#mensajeError").txt("Error Ajax");
+                    $("#mensajeError").show();
                 },
-                beforeSend: function(){
+                beforeSend: function () {
+                  // ruedita de carga
+                    $(".modal-body").LoadingOverlay("show", {
+                        image: "",
+                        fontawesome: "fa fa-cog fa-spin",
+                        fontawesomeColor: "red",        // tuerca roja
+                        fontawesomeResizeFactor: 1.0,   // tamaño de la tuerca
+                        text: "Cargando...",
+                        textResizeFactor: 0.5          // hace el texto más pequeño
+                    });
+
+
 
                 },
             });
 
-            
 
-            
+
+
 
 
         }
