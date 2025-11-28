@@ -10,8 +10,8 @@ namespace CapaEntidad
     public class Marca
     {
         public int IdMarca { get; set; }
-        public int Descripcion { get; set; }
-        public int Activo { get; set; }
+        public String Descripcion { get; set; }
+        public bool Activo { get; set; }
 
     }
 }

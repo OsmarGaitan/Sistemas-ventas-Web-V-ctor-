@@ -1,3 +1,7 @@
+use DBCARRITO 
+GO
+
+
 SELECT * FROM USUARIO
 GO
 
