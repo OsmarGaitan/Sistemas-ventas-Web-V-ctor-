@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build with dotnet
-        run: dotnet build /sistemas-vetas-Web-V-ctor --configuration Release
+        run: dotnet build ./Sistemas-ventas-Web-Victor/Proyecto.csproj --configuration Release
 
       - name: dotnet publish
         run: dotnet publish -c Release -o "${{env.DOTNET_ROOT}}/myapp"
