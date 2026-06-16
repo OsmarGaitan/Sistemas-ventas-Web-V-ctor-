@@ -21,7 +21,7 @@ jobs:
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 'aspdotnetv4.7.2'
+          dotnet-version: '4.7.2'
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
@@ -62,4 +62,3 @@ jobs:
           app-name: 'Sistemas-ventas-Web-V-ctor'
           slot-name: 'Production'
           package: .
-          
