@@ -16,16 +16,16 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Ver archivos (debug)
-        run: dir "Sistemas de ventas Wed Victor"
+        run: dir "Sistema de ventas Wed Victor"
 
       - name: Restore
-        run: dotnet restore "./Sistemas de ventas Wed Victor/Sistemas de ventas Wed Victor*.sln"
+        run: dotnet restore "./Sistema de ventas Wed Victor/Sistema de ventas Wed Victor*.sln"
 
       - name: Build
-        run: dotnet build "./Sistemas de ventas Wed Victor/*.sln" --configuration Release --no-restore
+        run: dotnet build "./Sistema de ventas Wed Victor/*.sln" --configuration Release --no-restore
 
       - name: Publish (Admin)
-        run: dotnet publish "./Sistemas de ventas Wed Victor/CapaPresentacionAdmin/CapaPresentacionAdmin.csproj" -c Release -o ./publish --no-build
+        run: dotnet publish "./Sistema de ventas Wed Victor/CapaPresentacionAdmin/CapaPresentacionAdmin.csproj" -c Release -o ./publish --no-build
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
