@@ -19,7 +19,7 @@ jobs:
         run: dir "Sistema de ventas Wed Victor"
 
       - name: Restore
-        run: dotnet restore "./Sistema de ventas Wed Victor/Sistema de ventas Wed Victor*.sln"
+        run: dotnet restore "./Sistema de ventas Wed Victor/*.sln"
 
       - name: Build
         run: dotnet build "./Sistema de ventas Wed Victor/*.sln" --configuration Release --no-restore
